@@ -1,5 +1,5 @@
-FROM python:3.12-alpine3.17
-LABEL maintainer="subham73"
+FROM python
+# LABEL maintainer="subham73"
 
 # Set environment variables
 ENV PYTHONUNBUFFERED 1

@@ -20,3 +20,5 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+git_commit = "19c2cd7234b82df17bc0712f73844acc2c2f4362"

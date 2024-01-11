@@ -12,6 +12,4 @@ class CalcTests(SimpleTestCase):
         self.assertEqual(calc.add(3, 8), 11)
 
     def test_sub_numbers(self):
-        self.assertEqual(calc.sub(17, 8), 5)
-
-
+        self.assertEqual(calc.sub(17, 8), 9)

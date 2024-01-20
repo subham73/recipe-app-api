@@ -9,7 +9,7 @@ from django.core.management import call_command
 # simulate the command and check if it works
 from django.db.utils import OperationalError
 # check if the command is available
-from django. test import SimpleTestCase
+from django.test import SimpleTestCase
 
 
 @patch('core.management.commands.wait_for_db.Command.check')
